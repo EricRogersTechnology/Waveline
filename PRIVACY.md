@@ -1,6 +1,6 @@
 # Waveline — Privacy Policy
 
-**Last updated: November 18, 2026**
+**Last updated: November 19, 2026**
 
 Waveline is an independent remote-control app for software-defined radio receivers, made by
 Eric Rogers Technology LLC. This policy explains what the app does and does not do with your
@@ -37,9 +37,29 @@ somewhere else, that happens through Apple's services or the app you choose.
   for SDRconnect, and lists radio receivers that announce themselves with Bonjour. Nothing
   leaves your local network.
 - **Apple iCloud**, if turned on, to sync your memories as described above.
+- **Public radio information**, only when you open the feature that needs it. These are
+  plain downloads; nothing about you is sent except what any web request carries (your
+  device's IP address):
+  - **Band Conditions** downloads solar and HF band data from hamqsl.com.
+  - **Shortwave Schedule** downloads the season's broadcast schedule from eibispace.de. That
+    site's secure (HTTPS) certificate isn't kept current, so this one public file is fetched
+    over plain HTTP.
+  - **Satellites** downloads satellite orbit data from celestrak.org.
 
 There are no other network connections. Nothing is sent to the developer, to an advertiser
 or to any analytics service.
+
+## Location
+
+**Satellites** can use your location, only if you tap **Use My Location** and allow it, to
+work out when satellites pass over you. You can type a grid square instead. Your location is
+used and stored only on your device. It is never sent anywhere and isn't included in backups.
+
+## Logbook, backups and decoded pictures
+
+Your logbook, scheduled recordings and decoded pictures stay on your device. A backup file
+you save contains your memories, saved computers, logbook and settings, and goes only where
+you choose to put it.
 
 ## Live Transcript and speech recognition
 
