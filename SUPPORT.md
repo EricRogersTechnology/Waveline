@@ -37,9 +37,12 @@ computer, then try again.
 Another app (or SDRconnect itself) is in control. Close the other client and reconnect.
 
 **Can I use it away from home?**
-Yes, but don't open SDRconnect's port to the internet: its API has no password. Use a private
-VPN such as Tailscale on the SDRconnect computer and your device instead, and add a host using the
-computer's VPN IP address. Audio uses about 1.5 Mbit/s (around 700 MB per hour).
+Yes, with Tailscale. Install it on the SDRconnect computer and your iPhone, signed in to the same
+account, then add a host in Waveline using the computer's **Tailscale name**: the short name shown
+in the Tailscale app, such as `macbook-pro`. Use the name, not the 100.x address, because iOS only
+allows this kind of connection to addresses it treats as local. Keep MagicDNS turned on in
+Tailscale so the name works. Don't open SDRconnect's port on your router: Waveline can't use it
+that way, and the API has no password. Audio uses about 1.5 Mbit/s (around 700 MB per hour).
 
 **How do memories and scanning work?**
 Tap ★ to save the frequency you're on, or import a channel list (CSV) from your radio's
