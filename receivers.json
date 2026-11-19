@@ -1,0 +1,40 @@
+{
+  "updated": "2026-11-19",
+  "receivers": [
+    {
+      "id": "sdrplay-demo",
+      "name": "SDRplay Demo",
+      "owner": "SDRplay",
+      "location": "United Kingdom",
+      "coverage": "1 kHz – 2 GHz",
+      "host": "nrsp.ddns.net",
+      "port": 50002,
+      "webURL": "http://nrsp.ddns.net:9001/",
+      "infoURL": "https://www.sdrplay.com/nRSPst",
+      "notes": "SDRplay's own demonstration unit. Up to 8 users at once, first come first served, 15-minute sessions."
+    },
+    {
+      "id": "baltic-lab",
+      "name": "Baltic Lab",
+      "owner": "Baltic Lab",
+      "location": "Northern Germany",
+      "coverage": "10 kHz – 30 MHz (HF)",
+      "host": "sdr.baltic-lab.com",
+      "port": 50000,
+      "webURL": "http://sdr.baltic-lab.com:9001",
+      "infoURL": "https://baltic-lab.com/websdr/",
+      "notes": "30-minute sessions. One person controls the radio at a time; others tune within their segment. The owner asks that antenna B stays selected with Bias-T on."
+    },
+    {
+      "id": "ki5enw",
+      "name": "KI5ENW",
+      "owner": "Steve Brightman",
+      "location": "United States",
+      "coverage": "1 kHz – 2 GHz",
+      "host": "amigasteve.dyndns.org",
+      "port": 50000,
+      "infoURL": "https://www.sdrplay.com/nRSPst",
+      "notes": "A long-running demo unit kept up by a former SDRplay team member. Login is on SDRplay's demo page."
+    }
+  ]
+}

@@ -45,6 +45,8 @@ somewhere else, that happens through Apple's services or the app you choose.
     site's secure (HTTPS) certificate isn't kept current, so this one public file is fetched
     over plain HTTP.
   - **Satellites** downloads satellite orbit data from celestrak.org.
+  - **Public Receivers** downloads the list of shared receivers from this website, and checks
+    whether each one is online by briefly opening a connection to it (nothing is sent).
 
 There are no other network connections. Nothing is sent to the developer, to an advertiser
 or to any analytics service.
