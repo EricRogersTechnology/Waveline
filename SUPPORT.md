@@ -63,7 +63,7 @@ Yes: "Listen with Waveline", "Scan with Waveline", "Tune Waveline to…" and mor
 Stop are also available as Control Center controls.
 
 **Is it accessible?**
-Waveline supports VoiceOver, Larger Text, Dark Mode, Reduce Motion, and text and controls meet colour-contrast guidelines. Live
+Waveline supports VoiceOver, Larger Text, Dark Mode, Reduce Motion, and text and controls meet color-contrast guidelines. Live
 Transcript turns voice into text, and the CW decoder turns Morse into text.
 
 **Is my data private?**

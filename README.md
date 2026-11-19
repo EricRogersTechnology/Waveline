@@ -1,7 +1,7 @@
 # Waveline
 
 Waveline is a remote control for your software-defined radio. Connect to the computer running
-SDRconnect on your network, then tune, listen, scan your favourite channels, record what you hear
+SDRconnect on your network, then tune, listen, scan your favorite channels, record what you hear
 and read Morse code from your iPhone, iPad, Apple Watch and Apple TV. Demo Mode lets you try
 everything before connecting a radio.
 
