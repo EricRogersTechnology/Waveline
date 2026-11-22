@@ -1,11 +1,11 @@
 # Waveline — Privacy Policy
 
-**Last updated: November 19, 2026**
+**Last updated: November 22, 2026**
 
 Waveline is an independent remote-control app for software-defined radio receivers, made by
 Eric Rogers Technology LLC. This policy explains what the app does and does not do with your
-information. The short version: **Waveline has no account, no ads and no analytics. The
-developer operates no servers and never receives your data.**
+information. The short version: **Waveline has no account, no ads and no analytics of its own.
+The developer operates no servers that receive your data.**
 
 ---
 
@@ -14,14 +14,19 @@ developer operates no servers and never receives your data.**
 **Nothing is collected by the developer.** Waveline has no user accounts, no sign-in, no
 advertising, no third-party analytics or tracking SDKs, and no developer-operated backend.
 
+Apple separately gives developers sales reports and, from people who agree to share it or who
+use TestFlight, usage and crash information. Anything you email or send as TestFlight feedback
+reaches the developer, because you sent it.
+
 ## Where your data lives
 
-Your saved computers, memories (channels and banks), settings and recordings are stored **on
-your device**.
+Your saved computers, memories (channels and banks), logbook, settings and recordings are
+stored **on your device**.
 
-If iCloud is turned on for Waveline, your memories also sync through **your own private
-iCloud** (iCloud Key-Value Storage), so they're the same on your iPhone, iPad and Apple TV.
-That uses your Apple Account and Apple's infrastructure, and is governed by
+If you're signed in to iCloud and it's on for Waveline, two of these also sync through **your own
+private iCloud** (iCloud Key-Value Storage): your **memories** on iPhone, iPad, Mac and Apple TV,
+and your **logbook** on iPhone and iPad. A logbook entry can include callsigns, grid squares and
+notes you typed. This uses your Apple Account and Apple's infrastructure, and is governed by
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). The developer has no access
 to it.
 
@@ -36,32 +41,45 @@ somewhere else, that happens through Apple's services or the app you choose.
 - **Find on This Network** (only when you tap it) checks the addresses on your local network
   for SDRconnect, and lists radio receivers that announce themselves with Bonjour. Nothing
   leaves your local network.
-- **Apple iCloud**, if turned on, to sync your memories as described above.
-- **Public radio information**, only when you open the feature that needs it. These are
-  plain downloads; nothing about you is sent except what any web request carries (your
-  device's IP address):
-  - **Band Conditions** downloads solar and HF band data from hamqsl.com.
-  - **Shortwave Schedule** downloads the season's broadcast schedule from eibispace.de. That
-    site's secure (HTTPS) certificate isn't kept current, so this one public file is fetched
-    over plain HTTP.
-  - **Satellites** downloads satellite orbit data from celestrak.org.
+- **Apple iCloud**, if turned on, to sync your memories and logbook as described above.
+- **Apple's App Store**, to show and handle purchases and to check whether you have Waveline Plus.
+  Apple processes payments. The developer never sees your payment details.
+- **Public information**, when a feature that uses it is on screen or needs refreshing. These
+  are plain downloads. Nothing about you is sent except what any web request carries (such as
+  your device's IP address):
+  - **Space weather** from the NOAA Space Weather Prediction Center (swpc.noaa.gov), for band
+    conditions, glances, HamClock, widgets, the Mac app and new logbook entries. Some of these
+    refresh automatically.
+  - **The shortwave schedule** from eibispace.de, for What's On, HamClock, new logbook entries
+    and the station name shown when you tune below 30 MHz. That site's secure (HTTPS) certificate
+    isn't kept current, so this one public file is fetched over plain HTTP.
+  - **Satellite orbits** from celestrak.org, for Satellites and HamClock.
+  - **Parks on the Air spots** from pota.app, for Spots.
+  - **How-To Videos** loads its list and preview pictures from YouTube (youtube.com and
+    img.youtube.com), and opens YouTube when you choose a video.
   - **Public Receivers** downloads the list of shared receivers from this website, and checks
-    whether each one is online by briefly opening a connection to it (nothing is sent).
+    whether each one is online by briefly opening a connection to it, which shows that receiver
+    your IP address.
+- **Links you tap** open the website or app they point to, under its own privacy policy.
 
-There are no other network connections. Nothing is sent to the developer, to an advertiser
+Apart from these and Apple's own services described below (speech recognition and Siri), the
+app makes no other network connections. Nothing is sent to the developer, to an advertiser
 or to any analytics service.
 
 ## Location
 
-**Satellites** can use your location, only if you tap **Use My Location** and allow it, to
-work out when satellites pass over you. You can type a grid square instead. Your location is
-used and stored only on your device. It is never sent anywhere and isn't included in backups.
+**Satellites** and HamClock's **grid square lookup** can use your location, only if you ask
+and allow it, to work out satellite passes or your grid square. You can type a grid square
+instead. Waveline doesn't send your location anywhere. A home grid you save in HamClock is kept
+with your settings, so it's in backups that include HamClock, and it can appear in logbook files
+you export.
 
 ## Logbook, backups and decoded pictures
 
-Your logbook, scheduled recordings and decoded pictures stay on your device. A backup file
-you save contains your memories, saved computers, logbook and settings, and goes only where
-you choose to put it.
+Scheduled recordings and decoded pictures stay on your device unless you share or save them
+elsewhere. A backup file can contain your memories, saved computers, logbook, study progress,
+recording schedules and settings. Backups and exported files go only where you choose to put
+them.
 
 ## Live Transcript and speech recognition
 
@@ -69,8 +87,14 @@ Live Transcript is off until you turn it on, and asks for Speech Recognition per
 first. It uses **Apple's speech recognition** to turn the radio audio you're listening to into
 text. Where your device supports it, recognition happens entirely on your device. On devices
 without on-device support, the audio is processed by Apple's speech service under
-[Apple's Privacy Policy](https://www.apple.com/legal/privacy/). Waveline never uses your
-microphone.
+[Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+
+## Microphone
+
+The **CW Decoder** can listen through your microphone, only when you choose **Microphone** and
+allow it, to decode Morse from a radio near you. The sound is processed on your device, is
+never recorded or sent anywhere, and stops when you switch the decoder off or leave Waveline.
+No other feature uses the microphone.
 
 ## Apple Watch
 
