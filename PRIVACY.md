@@ -27,7 +27,8 @@ If you're signed in to iCloud and it's on for Waveline, some of these also sync 
 private iCloud** (iCloud Key-Value Storage), with Waveline Plus: your **memories** and your **Ham Clock
 settings** on iPhone, iPad, Mac and Apple TV, and your **logbook** on iPhone, iPad and Mac. Ham Clock
 settings include the callsign, home grid square and DX grid square you entered. A logbook entry can
-include callsigns, grid squares and notes you typed. This uses your Apple Account and Apple's infrastructure, and is governed by
+include callsigns, grid squares and notes you typed. Your **appearance settings** (such as light, dark or Night,
+and your colors) also sync on all of these devices unless you turn off Sync with iCloud in Appearance settings. This uses your Apple Account and Apple's infrastructure, and is governed by
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). The developer has no access
 to it.
 
@@ -42,7 +43,7 @@ somewhere else, that happens through Apple's services or the app you choose.
 - **Find on This Network** (only when you tap it) checks the addresses on your local network
   for SDRconnect, and lists radio receivers that announce themselves with Bonjour. Nothing
   leaves your local network.
-- **Apple iCloud**, if turned on, to sync your memories, Ham Clock settings and logbook as described above.
+- **Apple iCloud**, if turned on, to sync your memories, Ham Clock settings, logbook and appearance as described above.
 - **Apple's App Store**, to show and handle purchases and to check whether you have Waveline Plus.
   Apple processes payments. The developer never sees your payment details.
 - **Public information**, when a feature that uses it is on screen or needs refreshing. These
