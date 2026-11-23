@@ -21,7 +21,8 @@ reaches the developer, because you sent it.
 ## Where your data lives
 
 Your saved computers, memories (channels and banks), logbook, settings and recordings are
-stored **on your device**.
+stored **on your device**. So are your favorite and recent **internet radio stations**, which are
+included in your backups.
 
 If you're signed in to iCloud and it's on for Waveline, some of these also sync through **your own
 private iCloud** (iCloud Key-Value Storage), with Waveline Plus: your **memories** and your **Ham Clock
@@ -62,6 +63,14 @@ somewhere else, that happens through Apple's services or the app you choose.
   - **Public Receivers** downloads the list of shared receivers from this website, and checks
     whether each one is online by briefly opening a connection to it, which shows that receiver
     your IP address.
+  - **Internet Radio** searches the Radio Browser station directory (radio-browser.info, a free
+    list kept by its community) when you browse or search. When you play a station from the
+    directory, Waveline tells Radio Browser which station it was, as its guidelines ask, for its
+    popularity ranking. No account or information about you is sent with it.
+- **Internet radio stations** you play are streamed straight from the broadcaster's server, or
+  from a stream address you entered (if that address is a playlist file, Waveline first downloads
+  it to find the stream). That server sees your IP address like any website. Station logos load
+  from the address the directory lists. Some stations stream over plain HTTP.
 - **Links you tap** open the website or app they point to, under its own privacy policy.
 
 Apart from these and Apple's own services described below (speech recognition and Siri), the
