@@ -1,6 +1,6 @@
 # Waveline — Privacy Policy
 
-**Last updated: November 22, 2026**
+**Last updated: November 23, 2026**
 
 Waveline is an independent remote-control app for software-defined radio receivers, made by
 Eric Rogers Technology LLC. This policy explains what the app does and does not do with your
@@ -23,10 +23,11 @@ reaches the developer, because you sent it.
 Your saved computers, memories (channels and banks), logbook, settings and recordings are
 stored **on your device**.
 
-If you're signed in to iCloud and it's on for Waveline, two of these also sync through **your own
-private iCloud** (iCloud Key-Value Storage): your **memories** on iPhone, iPad, Mac and Apple TV,
-and your **logbook** on iPhone and iPad. A logbook entry can include callsigns, grid squares and
-notes you typed. This uses your Apple Account and Apple's infrastructure, and is governed by
+If you're signed in to iCloud and it's on for Waveline, some of these also sync through **your own
+private iCloud** (iCloud Key-Value Storage), with Waveline Plus: your **memories** and your **Ham Clock
+settings** on iPhone, iPad, Mac and Apple TV, and your **logbook** on iPhone, iPad and Mac. Ham Clock
+settings include the callsign, home grid square and DX grid square you entered. A logbook entry can
+include callsigns, grid squares and notes you typed. This uses your Apple Account and Apple's infrastructure, and is governed by
 [Apple's Privacy Policy](https://www.apple.com/legal/privacy/). The developer has no access
 to it.
 
@@ -41,7 +42,7 @@ somewhere else, that happens through Apple's services or the app you choose.
 - **Find on This Network** (only when you tap it) checks the addresses on your local network
   for SDRconnect, and lists radio receivers that announce themselves with Bonjour. Nothing
   leaves your local network.
-- **Apple iCloud**, if turned on, to sync your memories and logbook as described above.
+- **Apple iCloud**, if turned on, to sync your memories, Ham Clock settings and logbook as described above.
 - **Apple's App Store**, to show and handle purchases and to check whether you have Waveline Plus.
   Apple processes payments. The developer never sees your payment details.
 - **Public information**, when a feature that uses it is on screen or needs refreshing. These
@@ -71,8 +72,8 @@ or to any analytics service.
 **Satellites** and HamClock's **grid square lookup** can use your location, only if you ask
 and allow it, to work out satellite passes or your grid square. You can type a grid square
 instead. Waveline doesn't send your location anywhere. A home grid you save in HamClock is kept
-with your settings, so it's in backups that include HamClock, and it can appear in logbook files
-you export.
+with your settings, so it syncs through your iCloud as described above, it's in backups that include
+HamClock, and it can appear in logbook files you export.
 
 ## Logbook, backups and decoded pictures
 
